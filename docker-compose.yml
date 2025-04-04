@@ -4,7 +4,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: moritz2k927/photon-docker
+    image: moritz2k/photon-docker
     volumes:
       - ./photon_data:/photon/photon_data
     ports:
